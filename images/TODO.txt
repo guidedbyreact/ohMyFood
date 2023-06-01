@@ -1,0 +1,2 @@
+Div restaurant en width 100%  ce qui permet de mettre la div en row
+width 50% en mode desktop

@@ -10,7 +10,7 @@ body {
   font-family: 'Shrikhand', cursive;
 
   header {
-    background-color: #f1f1f1;
+    background-color: #FFFFFF;
     padding: 14px 108px 5px 105px;
     text-align: center;
 
@@ -25,8 +25,13 @@ body {
     }
   }
 
+  main {
+    background-color:#D2D2D2;
+    padding: 20px;
+  }
+
   footer {
-    background-color: #f1f1f1;
+    background-color:#353535;
     padding: 20px;
     text-align: center;
   }

@@ -3,6 +3,13 @@
 // Variables
 $logo-max-width: 100%;
 
+// Mixin
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 // Styles
 body {
   margin: 0;
@@ -15,8 +22,7 @@ body {
     text-align: center;
 
     .logo {
-      display: flex;
-      justify-content: center;
+        @include center;
 
       img {
         max-width: $logo-max-width;

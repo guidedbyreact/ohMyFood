@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -16,8 +18,113 @@ body {
         height: auto; }
   body main {
     background-color: #D2D2D2;
-    padding: 20px; }
+    font-family: 'Roboto', cursive; }
+    body main .location {
+      padding-top: 15.5px;
+      padding-bottom: 15.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body main .location .icon {
+        margin-right: 10px; }
+    body main .restaurant {
+      background-color: #EAEAEA; }
+      body main .restaurant .reservation {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px; }
+        body main .restaurant .reservation .menu {
+          margin-bottom: 10px; }
+      body main .restaurant .conseil {
+        margin-right: 34px;
+        margin-left: 26px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px; }
+        body main .restaurant .conseil .soins {
+          margin-bottom: 10px; }
+      body main .restaurant .button {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body main .restaurant .button .btn {
+          padding: 10px 20px;
+          background-image: linear-gradient(to right, #FF79DA, #9356DC);
+          color: #fff;
+          border-radius: 10px;
+          text-decoration: none;
+          display: inline-block;
+          transition: background-color 0.3s ease; }
+          body main .restaurant .button .btn:hover {
+            background-image: linear-gradient(to right, #7831A9, #E24FAD); }
+      body main .restaurant .fonctionnement {
+        display: flex;
+        justify-content: left;
+        background-color: #FFFFFF; }
+        body main .restaurant .fonctionnement .titre {
+          font-size: 24px;
+          font-style: bold; }
+      body main .restaurant .menu-fonctionnement {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        body main .restaurant .menu-fonctionnement .contact {
+          margin-top: 20px;
+          margin-left: 32.51px;
+          margin-right: 20px; }
+          body main .restaurant .menu-fonctionnement .contact .btn-contact {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            background-color: #F6F6F6;
+            color: #000000;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: background-color 0.3s ease; }
+            body main .restaurant .menu-fonctionnement .contact .btn-contact:hover {
+              background-image: linear-gradient(to right, #7831A9, #E24FAD); }
+            body main .restaurant .menu-fonctionnement .contact .btn-contact .icon {
+              margin-right: 20px; }
+      body main .restaurant .image-restaurant {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        position: relative;
+        margin-right: 15px;
+        margin-left: 14px; }
+        body main .restaurant .image-restaurant .image {
+          position: relative;
+          width: 100%;
+          height: auto;
+          margin-right: 20px; }
+        body main .restaurant .image-restaurant .new-badge {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #4CAF50;
+          color: #fff;
+          padding: 5px 10px;
+          font-size: 16px;
+          font-weight: bold;
+          border-radius: 4px; }
+        body main .restaurant .image-restaurant .content {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+        body main .restaurant .image-restaurant .title {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 10px; }
+        body main .restaurant .image-restaurant .description {
+          margin-bottom: 10px; }
+        body main .restaurant .image-restaurant .heart-icon {
+          color: red;
+          font-size: 20px;
+          margin-left: auto; }
   body footer {
+    color: #FFFFFF;
     background-color: #353535;
     padding: 20px;
     text-align: center; }

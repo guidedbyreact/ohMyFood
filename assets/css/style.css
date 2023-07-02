@@ -34,7 +34,9 @@ body {
         padding-top: 20px;
         font-size: 20px; }
         body main .restaurant .reservation .menu {
-          margin-bottom: 10px; }
+          margin-bottom: 10px;
+          font-size: 24px;
+          font-weight: bold; }
       body main .restaurant .conseil {
         margin-right: 34px;
         margin-left: 26px;
@@ -49,12 +51,15 @@ body {
         align-items: center; }
         body main .restaurant .button .btn {
           padding: 10px 20px;
+          width: 218px;
+          height: 50px;
           background-image: linear-gradient(to right, #FF79DA, #9356DC);
+          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
           color: #fff;
-          border-radius: 10px;
-          text-decoration: none;
-          display: inline-block;
-          transition: background-color 0.3s ease; }
+          border-radius: 25px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: none; }
           body main .restaurant .button .btn:hover {
             background-image: linear-gradient(to right, #7831A9, #E24FAD); }
       body main .restaurant .fonctionnement {
@@ -63,30 +68,57 @@ body {
         background-color: #FFFFFF; }
         body main .restaurant .fonctionnement .titre {
           font-size: 24px;
-          font-style: bold; }
+          font-style: bold;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-weight: 700; }
       body main .restaurant .menu-fonctionnement {
         background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center; }
+        align-items: left;
+        justify-content: left;
+        gap: 20px; }
         body main .restaurant .menu-fonctionnement .contact {
           margin-top: 20px;
           margin-left: 32.51px;
           margin-right: 20px; }
           body main .restaurant .menu-fonctionnement .contact .btn-contact {
+            width: 322,49px;
+            height: 72,38px;
             display: flex;
-            align-items: center;
-            flex-grow: 1;
+            border: none;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
             background-color: #F6F6F6;
             color: #000000;
-            border-radius: 15px;
+            border-radius: 20px;
             text-decoration: none;
-            transition: background-color 0.3s ease; }
+            transition: background-color 0.3s ease;
+            padding: 32.55px 110px;
+            position: relative;
+            white-space: nowrap; }
             body main .restaurant .menu-fonctionnement .contact .btn-contact:hover {
               background-image: linear-gradient(to right, #7831A9, #E24FAD); }
-            body main .restaurant .menu-fonctionnement .contact .btn-contact .icon {
-              margin-right: 20px; }
+            body main .restaurant .menu-fonctionnement .contact .btn-contact .chiffre {
+              position: absolute;
+              left: -15px;
+              top: 50%;
+              transform: translateY(-50%);
+              background-color: #9356DC;
+              color: #000000;
+              border-radius: 50%;
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-weight: bold;
+              font-size: 14px; }
+      body main .restaurant .titre-restaurant {
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-top: 35px; }
       body main .restaurant .image-restaurant {
         display: flex;
         flex-direction: column;
@@ -101,8 +133,8 @@ body {
           margin-right: 20px; }
         body main .restaurant .image-restaurant .new-badge {
           position: absolute;
-          top: 0;
-          right: 0;
+          top: 15px;
+          right: 15px;
           background-color: #4CAF50;
           color: #fff;
           padding: 5px 10px;
@@ -119,12 +151,47 @@ body {
           margin-bottom: 10px; }
         body main .restaurant .image-restaurant .description {
           margin-bottom: 10px; }
+        body main .restaurant .image-restaurant .content-text {
+          position: relative; }
         body main .restaurant .image-restaurant .heart-icon {
-          color: red;
-          font-size: 20px;
-          margin-left: auto; }
+          position: absolute;
+          top: 25px;
+          right: 15px;
+          color: white;
+          font-size: 30px;
+          margin-right: 25px;
+          margin-bottom: 10px;
+          margin-left: auto;
+          background-image: linear-gradient(to right, #FF79DA, #9356DC); }
+        body main .restaurant .image-restaurant .fa-heart {
+          top: 25px;
+          right: 15px;
+          position: absolute;
+          margin-right: 25px;
+          margin-bottom: 10px;
+          margin-left: auto;
+          font-size: 30px; }
   body footer {
     color: #FFFFFF;
     background-color: #353535;
-    padding: 20px;
-    text-align: center; }
+    padding: 20px; }
+    body footer .titre-ohmyfood {
+      font-family: 'Shrikhand', cursive;
+      font-size: 27px; }
+    body footer .liens-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: left;
+      margin-top: 20px;
+      font-size: 16px;
+      gap: 5px; }
+      body footer .liens-footer .titre-footer {
+        font-size: 16px;
+        font-family: 'Roboto', cursive; }
+        body footer .liens-footer .titre-footer .fa-utensils {
+          margin-right: 5px;
+          font-size: 11,92px; }
+        body footer .liens-footer .titre-footer .fa-handshake {
+          margin-right: 5px;
+          font-size: 11px; }

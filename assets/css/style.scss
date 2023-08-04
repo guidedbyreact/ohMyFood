@@ -114,6 +114,7 @@ body {
         align-items: left;
         justify-content:left;
         gap:20px;
+        padding-bottom:70px;
         .contact {    
           margin-top: 20px;
           margin-left: 32.51px;
@@ -130,16 +131,19 @@ body {
             transition: background-color 0.3s ease;
             align-items: center;
             white-space: nowrap;
-          
+            gap:20px;
+            
       
             &:hover {
               background-image: linear-gradient(to right, #7831A9, #E24FAD);
             }
       
             .icon {
-              
+              margin-left:30px;
             }
-          
+            .text-resto{
+              font-size:16px;
+            }
             .chiffre{
               position: absolute;
               transform: translateX(calc(-50% - 6px));
@@ -176,6 +180,10 @@ body {
           width: 100%;
           height: auto;
           margin-right: 20px;
+        }
+
+        .image2{
+          height:280px
         }
 
         .image-heart {

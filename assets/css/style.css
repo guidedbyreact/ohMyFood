@@ -80,7 +80,8 @@ body {
         flex-direction: column;
         align-items: left;
         justify-content: left;
-        gap: 20px; }
+        gap: 20px;
+        padding-bottom: 70px; }
         body main .restaurant .menu-fonctionnement .contact {
           margin-top: 20px;
           margin-left: 32.51px;
@@ -96,9 +97,14 @@ body {
             border-radius: 20px;
             transition: background-color 0.3s ease;
             align-items: center;
-            white-space: nowrap; }
+            white-space: nowrap;
+            gap: 20px; }
             body main .restaurant .menu-fonctionnement .contact .btn-contact:hover {
               background-image: linear-gradient(to right, #7831A9, #E24FAD); }
+            body main .restaurant .menu-fonctionnement .contact .btn-contact .icon {
+              margin-left: 30px; }
+            body main .restaurant .menu-fonctionnement .contact .btn-contact .text-resto {
+              font-size: 16px; }
             body main .restaurant .menu-fonctionnement .contact .btn-contact .chiffre {
               position: absolute;
               transform: translateX(calc(-50% - 6px));
@@ -129,6 +135,8 @@ body {
           width: 100%;
           height: auto;
           margin-right: 20px; }
+        body main .restaurant .image-restaurant .image2 {
+          height: 280px; }
         body main .restaurant .image-restaurant .image-heart {
           position: absolute;
           top: 30px;

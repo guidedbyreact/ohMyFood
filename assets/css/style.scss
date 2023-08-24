@@ -298,18 +298,13 @@ body {
         margin-left:17px;
 
         &:after {
-            content: "";
-            display: block;
-            width: 80px;
-            height: 2px;
-            background-color: #99E2D0; 
-            position: absolute;
-            left: 5%;
-            transform: translateX(-50%);
-            margin-left:20px;
+          content: "";
+          display: block;
+          width: 50px;
+          height: 2px;
+          background-color: #99E2D0;
         }
     }
-
     .menu-entree {
       display: flex;
       background-color: #F6F6F6;
@@ -340,8 +335,12 @@ body {
   }
 
   .content{
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    top: -20px;
+    position: relative;
+    background-color: #F6F6F6; 
     .content-text {
       display: flex;
       justify-content: space-between;

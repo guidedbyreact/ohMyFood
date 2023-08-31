@@ -1,0 +1,21 @@
+1) page d'acceuil; bloc d'addresse plus clair OK
+reserver le menu qui vs convient plus clair OK
+espacement sur avant et apres le titre reserver le menu OK
+bouton explorer, arranger les espacements OK
+revoir les espacements ok
+
+titre restaurant s, rajouter un s ok
+nom de chaque restaurant pas de bords arrondis ?
+arrager les couleurs de fonds et les polices sur le nom de chaque restaurant ?
+coins de la carte de chaque resto doit etre arrondis ?
+il y a pas nouveau sur chaque restaurant
+
+2) page des restaurants
+taille de la fleche plus petite
+les cartes des plats en fond blanc
+taille des textes
+corriger le .>div
+
+
+
+

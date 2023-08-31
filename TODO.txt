@@ -8,10 +8,10 @@ titre restaurant s, rajouter un s ok
 nom de chaque restaurant pas de bords arrondis ?
 arrager les couleurs de fonds et les polices sur le nom de chaque restaurant ?
 coins de la carte de chaque resto doit etre arrondis ?
-il y a pas nouveau sur chaque restaurant
+il y a pas nouveau sur chaque restaurant OK
 
 2) page des restaurants
-taille de la fleche plus petite
+taille de la fleche plus petite OK
 les cartes des plats en fond blanc
 taille des textes
 corriger le .>div

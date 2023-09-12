@@ -16,6 +16,12 @@ les cartes des plats en fond blanc
 taille des textes
 corriger le .>div
 
+3) faire classes differentes pour chaque page
+4) ajouter un shadow sur les cartes restaurant ds index.html
+5) hover sur le coeur
+6) rajouter espace plus grands entre entree, plat et dessert pour les restaurant
+7 refactoring prix de cahque resto
+
 
 
 

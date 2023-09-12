@@ -42,7 +42,8 @@ body {
       body main .location .icon {
         margin-right: 10px; }
     body main .restaurant {
-      background-color: #F6F6F6; }
+      background-color: #F6F6F6;
+      padding-top: 55px; }
       body main .restaurant .reservation {
         text-align: center;
         padding-top: 20px;
@@ -130,17 +131,21 @@ body {
               justify-content: center;
               font-weight: bold;
               font-size: 14px; }
+      body main .restaurant .restaurant-list {
+        padding-top: 55px;
+        padding-left: 20px;
+        padding-right: 20px; }
       body main .restaurant .titre-restaurant {
         font-size: 24px;
-        font-weight: 700;
-        margin-left: 20px;
-        margin-top: 35px; }
+        font-weight: 700; }
       body main .restaurant .image-restaurant {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
         position: relative;
-        background-color: #F6F6F6; }
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        overflow: hidden; }
         body main .restaurant .image-restaurant .image {
           position: relative;
           width: 100%;
@@ -252,9 +257,7 @@ body {
   body .content {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    overflow: hidden;
-    top: -20px;
-    background-color: #F6F6F6; }
+    margin-bottom: 20px; }
     body .content .content-text {
       display: flex;
       justify-content: space-between;

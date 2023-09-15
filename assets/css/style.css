@@ -42,8 +42,7 @@ body {
       body main .location .icon {
         margin-right: 10px; }
     body main .restaurant {
-      background-color: #F6F6F6;
-      padding-top: 55px; }
+      background-color: #F6F6F6; }
       body main .restaurant .reservation {
         text-align: center;
         padding-top: 20px;
@@ -138,6 +137,9 @@ body {
       body main .restaurant .titre-restaurant {
         font-size: 24px;
         font-weight: 700; }
+      body main .restaurant .restaurant-link {
+        text-decoration: none;
+        color: inherit; }
       body main .restaurant .image-restaurant {
         display: flex;
         flex-direction: column;

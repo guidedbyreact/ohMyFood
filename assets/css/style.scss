@@ -65,7 +65,6 @@ body {
     }
     .restaurant {
       background-color:#F6F6F6;
-      padding-top:55px;
       .reservation {
         text-align: center;
         padding-top: 20px;
@@ -186,6 +185,10 @@ body {
       .titre-restaurant{
         font-size: 24px;
         font-weight: 700;
+      }
+      .restaurant-link{
+        text-decoration: none;
+        color: inherit;
       }
       .image-restaurant {
         display: flex;
